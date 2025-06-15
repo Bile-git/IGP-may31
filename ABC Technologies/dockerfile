@@ -1,0 +1,3 @@
+ROM tomcat
+COPY var/lib/jenkins/workspaces/CI-job/target/ABCtechnologies.war /var/lib/jenkins/workspaces/CI-job/abc.war
+CMD ["catalina.sh", "run"]
