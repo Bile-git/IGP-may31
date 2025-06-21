@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.xyz.dataAccessObject.AdminDataImpTest" time="0.036" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.xyz.dataAccessObject.AdminDataImpTest" time="0.022" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -34,11 +34,11 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.8.0-1029-aws"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/ubuntu"/>
+    <property name="user.home" value="/root"/>
     <property name="user.timezone" value="Etc/UTC"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="21"/>
-    <property name="user.name" value="ubuntu"/>
+    <property name="user.name" value="root"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.xyz.dataAccessObject.AdminDataImpTest" name="createUserShouldWorkSuccessfully" time="0.036"/>
+  <testcase classname="com.xyz.dataAccessObject.AdminDataImpTest" name="createUserShouldWorkSuccessfully" time="0.022"/>
 </testsuite>
