@@ -7,7 +7,8 @@ pipeline
 		{
 			steps
 			{
-				git 'https://github.com/Bile-git/IGP-may31.git'
+				git branch: 'main',
+                                       url: 'https://github.com/Bile-git/IGP-may31.git'
 			}
 		}
 		
